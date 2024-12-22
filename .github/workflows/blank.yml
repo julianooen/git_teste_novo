@@ -11,6 +11,6 @@ jobs:
 
       - name: step2
         run: 
-          echo "github.action_path" $GITHUB_ACTION_PATH
-          echo "github.workspace" $GITHUB_WORKSPACE
-          echo "github.event_name" $GITHUB_EVENT_NAME
+          echo github.action_path $GITHUB_ACTION_PATH
+          github.workspace $GITHUB_WORKSPACE
+          github.event_name $GITHUB_EVENT_NAME
