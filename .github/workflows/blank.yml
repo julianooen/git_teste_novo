@@ -8,3 +8,6 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+
+      - name: step2
+        run: echo "Step 2!"
