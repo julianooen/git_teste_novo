@@ -14,3 +14,4 @@ jobs:
           echo github.action_path $GITHUB_ACTION_PATH
           github.workspace $GITHUB_WORKSPACE
           github.event_name $GITHUB_EVENT_NAME
+          github.brach $GITHUB_BRANCH
