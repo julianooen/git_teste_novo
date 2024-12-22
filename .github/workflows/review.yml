@@ -1,15 +1,12 @@
 # This is a basic workflow to help you get started with Actions
 
 name: hello-world
-on:
-  push:
-    branches:
-      - master
+on: pull_request_review
 jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-      - name: pull_request closed
-        run: echo pull_request closed
+      - name: pull_request_review
+        run: echo no pull_request_review
 
 
