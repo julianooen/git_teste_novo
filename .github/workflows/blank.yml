@@ -11,7 +11,6 @@ jobs:
 
       - name: step2
         run: 
-          echo "github.action_path" ${{ github.action_path }}
-          echo "github.action_ref" ${{ github.action_ref }}
-          echo "github.action" ${{ github.action }}
-          echo "github.action_repository" ${{ github.action_repository }}
+          echo "github.action_path" $GITHUB_ACTION_PATH
+          echo "github.workspace" $GITHUB_WORKSPACE
+          echo "github.event_name" $GITHUB_EVENT_NAME
