@@ -6,7 +6,7 @@ jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
+      - name: step1
         run: echo no pull_request
 
       - name: step2
