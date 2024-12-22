@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: pull_request closed
-        run: echo pull_request closed
+        run: echo pull_request closed teste
 
 
