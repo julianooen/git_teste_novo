@@ -10,4 +10,4 @@ jobs:
         run: echo "Hello World!"
 
       - name: step2
-        run: echo "Step 2! sera"
+        run: echo "Step 2!"
